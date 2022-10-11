@@ -1,0 +1,63 @@
+@import url('../../css/global.css');
+
+.conteiner-principal{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.conteiner-oferta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 200px;
+    padding: 0.75rem;
+    background-color: #003f92;
+    box-shadow: 0 8px 8px 0 rgba(247, 247, 247, 0.2);
+    margin-top: 140px ;
+}
+.conteiner-oferta img{
+    margin-bottom: 30px;
+    width: 60px;
+    height: 60px;
+}
+.tres img{
+    width: 100px;
+    height: 100px;
+}
+.informacao{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--cor-fonte);
+    margin-bottom: 30px;
+}
+.conteiner-oferta button{
+    all: unset;
+    width: 100px;
+    height: 48px;
+    background-color: darkorange;
+    color: var(--cor-fonte);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.botao  {
+    width: 12.5rem;
+    height: 3.4375rem;
+    position: absolute;
+    bottom: 65px;
+    right: 20px;
+    z-index: 2;
+    background-color: #003f92;
+    border: none;
+    color: var(--cor-fonte);
+    cursor: pointer;
+}
+
+.botao a{
+    text-decoration: none;
+    color: var(--cor-fonte);
+}

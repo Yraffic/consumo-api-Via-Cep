@@ -6,12 +6,14 @@
     flex-direction: column;
     align-items: flex-start;
     background-color: var(--cor-de-navegacao);
+    box-shadow: 0 8px 8px 0 rgba(247, 247, 247, 0.2);
     color: #fff;
     padding: 0.75rem;
     width: 37rem;
     position: absolute;
     top: 20%;
     left: 20px;
+    z-index: 1;
 }
 p{
     margin-bottom: 20px;
@@ -32,4 +34,7 @@ input{
 .texto {
     background-color: red;
     color: white;
+}
+.escondido{
+    display: none;
 }
