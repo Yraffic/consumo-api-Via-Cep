@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: flex-start;
     background-color: var(--cor-de-navegacao);
-    box-shadow: 0 8px 8px 0 rgba(247, 247, 247, 0.2);
+    box-shadow: 0 8px 8px 0 rgba(8, 8, 8, 0.4);
     color: var(--cor-fonte);
     padding: 1rem;
     width: 37rem;
@@ -40,8 +40,6 @@ input{
 .botao-oferta{
     text-decoration: none;
     color: var(--cor-fonte);
-    width: 28px;
-    height: 10px;
 }
 .botao-oferta:hover{
     color: aqua;

@@ -2,29 +2,30 @@
 
 .principal{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-grow: 1;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
 }
 
 .conteiner-oferta {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 350px;
-    width: 200px;
     padding: 0.75rem;
     background-color: darkgray;
-    box-shadow: 0 8px 8px 0 rgba(2, 2, 2, 0.2);
+    box-shadow: 0 8px 8px 0 rgba(2, 2, 2, 0.2); 
+    width: 20rem;
+    height: 15;
+    margin-left: 1rem 
 }
 
 .conteiner-oferta img{
     width: 60px;
     height: 60px;
-}
-.tres img{
-    width: 100px;
-    height: 100px;
 }
 .informacao{
     display:flex ;
@@ -46,12 +47,9 @@
 
 .botao  {
     width: 12.5rem;
-    height: 3.4375rem;
-    position: absolute;
-    bottom: 65px;
-    right: 20px;
-    z-index: 2;
-    background-color: #003f92;
+    height: 2rem;
+    background-color: orangered;
+    border-radius: 0.125rem;
     border: none;
     color: var(--cor-fonte);
     cursor: pointer;
@@ -60,4 +58,26 @@
 .botao a{
     text-decoration: none;
     color: var(--cor-fonte);
+}
+
+button:hover{
+    background-color: #00d3128f;
+}
+
+.ofertas{
+   font-size: 20px;
+   letter-spacing: 0.125rem;
+   color: var(--cor-fonte);
+}
+
+@media(max-width:600px){
+    
+    .cards{
+        flex-direction: column;
+    }
+    .conteiner-oferta{
+        margin-top: 1rem;
+        
+        margin-bottom: 1.5rem;
+    }
 }

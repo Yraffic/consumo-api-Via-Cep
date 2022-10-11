@@ -20,7 +20,7 @@ body{
     justify-content: space-between;
     background-color: var(--cor-de-navegacao);
     padding: 0.3125rem 0.75rem 0.3125rem 00.75rem;
-    
+    height: 3rem;
     
 }
 .rodape{
@@ -29,10 +29,17 @@ body{
     background-color: var(--cor-de-navegacao);
     padding: 0.3125rem 0.75rem 0.3125rem 00.75rem;
     margin: 0;
-    
-    
+    height: 3rem; 
 }
 
 img{
     cursor: pointer;
+}
+@media (max-width:600px){
+    .cabecalho{
+        width: 100%;
+    }
+    .rodape{
+        width: 100%;
+    }
 }
