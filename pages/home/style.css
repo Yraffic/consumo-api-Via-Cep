@@ -35,6 +35,14 @@ input{
     background-color: red;
     color: white;
 }
+.botao-oferta{
+    text-decoration: none;
+    color: var(--cor-fonte);
+    font-size: 28px;
+}
+.botao-oferta:hover{
+    color: aqua;
+}
 .escondido{
     display: none;
 }

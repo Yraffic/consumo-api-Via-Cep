@@ -6,11 +6,10 @@
 
 body{
     --cor-de-navegacao: #003f92;
-    --cor-background-claro: #fff;
-    --cor-background-escuro: rgb(0, 11, 26);
+    --cor-background: #fff;
     --cor-fonte: rgb(255, 255, 255);   
     
-    background-color: var(--cor-background-escuro);
+    background-color: var(--cor-background-claro);
 
     display: flex;
     flex-direction: column;

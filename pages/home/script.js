@@ -2,6 +2,7 @@ const cepInput = document.querySelector('#cep')
 const cidadeInput = document.querySelector('#cidade')
 const ruaInput = document.querySelector('#rua')
 const texto = document.querySelector('.valor')
+const botaoAvanca = document.querySelector('.botao-oferta')
 
 cepInput.addEventListener('change', function () {
 
@@ -19,6 +20,7 @@ cepInput.addEventListener('change', function () {
             ruaInput.value = body.logradouro
         })
     })
+    botaoAvanca.classList.remove('escondido')
    texto.textContent = ''
  
 })
