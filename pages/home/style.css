@@ -1,30 +1,32 @@
 @import url('../../css/global.css');
 
-
+.principal{
+   
+    flex-grow: 1;
+    padding: 2rem 2rem 2rem 2rem;
+}
 .conteiner-formulario{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     background-color: var(--cor-de-navegacao);
     box-shadow: 0 8px 8px 0 rgba(247, 247, 247, 0.2);
-    color: #fff;
-    padding: 0.75rem;
+    color: var(--cor-fonte);
+    padding: 1rem;
     width: 37rem;
-    position: absolute;
-    top: 20%;
-    left: 20px;
-    z-index: 1;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 p{
     margin-bottom: 20px;
     font-weight: bolder;
     letter-spacing: 0.125rem;
 }
-div{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
+
+ 
 input{
     all: unset;
     background-color: darkgrey;
@@ -33,16 +35,32 @@ input{
 }
 .texto {
     background-color: red;
-    color: white;
+    color: var(--cor-fonte);
 }
 .botao-oferta{
     text-decoration: none;
     color: var(--cor-fonte);
-    font-size: 28px;
+    width: 28px;
+    height: 10px;
 }
 .botao-oferta:hover{
     color: aqua;
 }
 .escondido{
     display: none;
+}
+
+@media(max-width:600px){
+    .principal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteiner-formulario{
+        width: 70%;
+        height: 70%;
+    }
+    input{
+        width: 90%;
+    }
 }

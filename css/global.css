@@ -8,37 +8,31 @@ body{
     --cor-de-navegacao: #003f92;
     --cor-background: #fff;
     --cor-fonte: rgb(255, 255, 255);   
-    
     background-color: var(--cor-background-claro);
-
     display: flex;
     flex-direction: column;
-    z-index: 0;
+    min-height: 100vh;
+    min-width: 100vw;
 }
-.navegacao-cabecalho{
+.cabecalho{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--cor-de-navegacao);
     padding: 0.3125rem 0.75rem 0.3125rem 00.75rem;
-    height: 3.438rem;
-    width: 100%;
-    position: absolute;
-    top: 0;
+    
+    
 }
-.navegacao-rodape{
+.rodape{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-color: var(--cor-de-navegacao);
     padding: 0.3125rem 0.75rem 0.3125rem 00.75rem;
-    height: 3.438rem;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+    margin: 0;
+    
+    
 }
 
 img{
     cursor: pointer;
 }
-

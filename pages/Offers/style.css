@@ -1,10 +1,11 @@
 @import url('../../css/global.css');
 
-.conteiner-principal{
+.principal{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
 }
-
 
 .conteiner-oferta {
     display: flex;
@@ -13,12 +14,11 @@
     height: 350px;
     width: 200px;
     padding: 0.75rem;
-    background-color: #003f92;
-    box-shadow: 0 8px 8px 0 rgba(247, 247, 247, 0.2);
-    margin-top: 140px ;
+    background-color: darkgray;
+    box-shadow: 0 8px 8px 0 rgba(2, 2, 2, 0.2);
 }
+
 .conteiner-oferta img{
-    margin-bottom: 30px;
     width: 60px;
     height: 60px;
 }
